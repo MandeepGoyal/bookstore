@@ -2,6 +2,9 @@
 
 A fully functional e-commerce application for buying and selling books, built with the MERN stack and styled using Tailwind CSS. The application offers a seamless shopping experience for users and robust admin functionality for managing the store.
 
+![image](https://github.com/user-attachments/assets/1bc29332-15a1-4463-9786-5b47096674a6)
+
+
 Features
 
     User authentication with Firebase (Login & Register).
