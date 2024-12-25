@@ -1,35 +1,30 @@
-# build-full-stack-book-store-mern-app
-![full-stack-book-store-mern-project](/frontend/src/assets/github-cover.png)
+# E-Commerce Bookstore
 
-## How to run this project:
+A fully functional e-commerce application for buying and selling books, built with the MERN stack and styled using Tailwind CSS. The application offers a seamless shopping experience for users and robust admin functionality for managing the store.
 
-### For Frontend 
-Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
-* Go to the frontend directory by using the following command ``` cd frontend ```.
-* * create a **.env.local** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there:
-```
->>> Stepup firebase app and configure the environment
+Features
 
-VITE_API_KEY="AIzaSyCXvDIC4MPrkaMdeg_O2iij88wLpfj3qBA"
-VITE_Auth_Domain="book-store-mern-app.firebaseapp.com"
-VITE_PROJECT_ID="book-store-mern-app"
-VITE_STORAGE_BUCKET="book-store-mern-app.appspot.com"
-VITE_MESSAGING_SENDERID= "205632822247"
-VITE_APPID="1:205632822247:web:b0db0ec66bf6de0bbb3b42"
-```
-+ Then run `` npm install `` commend to install node dependencies.
-- Finally, to run the project, use ``npm run dev`` command.
+    User authentication with Firebase (Login & Register).
+    Dynamic book listings with recommendations and a top sellers section.
+    Cart functionality: Add, remove, and clear items.
+    Secure admin panel for managing books and orders.
+    Responsive design with Tailwind CSS.
+    Backend order management and checkout process.
 
+Technologies Used
 
-### For Backend
-Follow the below steps to run the project: 
-- Firstly clone or unzip the project folder.
-* Go to the backend directory by using the following command ``` cd backend```.
-+ Then run `` npm install `` commend to install node dependencies.
-* create a **.env** file in the backend root directory as the same level where the **package.json** is located and keep the following environment variables there: 
-```
-DB_URL = "mongodb+srv://helpyourassistant:pqam0Mwv3Vwv8Off@cluster0.qc3bq.mongodb.net/book-store?retryWrites=true&w=majority&appName=Cluster0"
+    Frontend: React, Tailwind CSS, Redux Toolkit
+    Backend: Node.js, Express.js
+    Database: MongoDB
+    Authentication: Firebase
+
+Project Highlights
+
+    Fully responsive user interface.
+    Efficient state management with Redux Toolkit.
+    Admin capabilities for adding, editing, and deleting books.
+    Secure private routes for user and admin access.
+   
 
 JWT_SECRET_KEY = 'bc992a20cb6706f741433686be814e3df45e57ea1c2fc85f9dbb0ef7df12308a669bfa7c976368ff32e32f6541480ce9ec1b122242f9b1257ab669026aeaf16'
 
